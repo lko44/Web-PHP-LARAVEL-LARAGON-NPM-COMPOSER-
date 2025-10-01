@@ -19,7 +19,7 @@
 -->
 <div class="min-h-full">
     <x-navbar></x-navbar>
-    <x-header></x-header>
+    <x-header>{{$judul}}</x-header>
 
 
   <main>

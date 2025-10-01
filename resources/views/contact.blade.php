@@ -10,6 +10,7 @@
 </body>
 </html> -->
 <x-layout>
+  <x-slot:judul>{{$title}}</x-slot:judul>
       <h1>Kontak</h1>
   <p>Email: enriko@example.com</p>
   <p>Instagram: @enriko</p>

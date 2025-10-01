@@ -9,6 +9,7 @@
 </body>
 </html> -->
 <x-layout>
+    <x-slot:judul>{{ $title }}</x-slot:judul>
         <h1>Profil Diri</h1>
     <p>Nama: {{ $nama ?? 'Enriko Raina Patasa' }}</p>
     <p>Kelas: {{ $kelas ?? 'X PPLG 1' }}</p>
