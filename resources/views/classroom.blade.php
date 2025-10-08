@@ -7,7 +7,7 @@
             <tr>
                 <th style="border: 1px solid #000; padding: 8px 12px; background-color: #f2f2f2;">No</th>
                 <th style="border: 1px solid #000; padding: 8px 12px; background-color: #f2f2f2;">Name</th>
-                <th style="border: 1px solid #000; padding: 8px 12px; background-color: #f2f2f2;">Student List</th>
+                <th style="border: 1px solid #000; padding: 8px 12px; background-color: #f2f2f2;">List pelajar</th>
             </tr>
         </thead>
         <tbody>
