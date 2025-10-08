@@ -18,9 +18,11 @@
             <x-nav-link href="/students" :active="request()->is('students')">students</x-nav-link>
             <x-nav-link href="/guardian" :active="request()->is('guardian')">guardian</x-nav-link>
             <x-nav-link href="/classroom" :active="request()->is('classroom')">classroom</x-nav-link>
+            <x-nav-link href="/teacher" :active="request()->is('teacher')">Teacher</x-nav-link>
+            <x-nav-link href="/subject" :active="request()->is('subject')">Subject</x-nav-link>
 
           </div>
-        </div> 
+        </div>
       </div>
 
       <!-- Right section -->
@@ -77,6 +79,8 @@
       <x-nav-link href="/students" :active="request()->is('students')">students</x-nav-link>
       <x-nav-link href="/guardian" :active="request()->is('guardian')">guardian</x-nav-link>
       <x-nav-link href="/classroom" :active="request()->is('classroom')">classroom</x-nav-link>
+      <x-nav-link href="/teaacher" :active="request()->is('teacher')">Teacher</x-nav-link>
+      <x-nav-link href="/subject" :active="request()->is('subject')">Subject</x-nav-link>
     </div>
     <div class="border-t border-gray-700 pt-4 pb-3">
       <div class="flex items-center px-5">

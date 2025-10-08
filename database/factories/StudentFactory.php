@@ -20,6 +20,9 @@ class StudentFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'Birthday' => $this->faker->date('Y-m-d', '2010-12-31'), // random date before 2010
+            'classroom_id' => Classroom::factory(),
+            'email' => $this->faker->unique()->safeEmail(),
+            'adress' => $this->faker->city(),
             // 'Grade' => $this->faker->randomElement([
             //     '11 PPLG 1',
             //     '11 PPLG 2',
@@ -27,9 +30,6 @@ class StudentFactory extends Factory
             //     '10 PPLG 2',
             //     '10 PPLG 3'
             // ]),
-            'classroom_id' => Classroom::factory(),
-            'email' => $this->faker->unique()->safeEmail(),
-            'adress' => $this->faker->city(),
         ];
     }
 }

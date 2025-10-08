@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 use App\Models\Classroom;
 use App\Models\Guardian;
+use App\Models\Subject;
+use App\Models\Teacher;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -16,15 +18,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Guardian::factory()->count(10)->create();
+        Teacher::factory()->count(10)->create();
 
         User::factory()->create([
             "name" => "Admin",
             "email" => "",
         ]);
 
-        Classroom:: factory(4)
-        ->hasStudents(5)
+        Subject:: factory(4)
+        ->hasTeacher(1)
         ->create();
     }
 }
